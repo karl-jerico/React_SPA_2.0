@@ -5,11 +5,12 @@ import EventDetails, {
   loader as eventDetailLoader,
   action as deleteEventAction,
 } from "./pages/EventDetails";
-import NewEvents, { action as newEventAction } from "./pages/NewEvents";
+import NewEvents from "./pages/NewEvents";
 import EditEvent from "./pages/EditEvent";
 import RootLayout from "./layouts/RootLayout";
 import EventsRoot from "./layouts/EventsRoot";
 import Error from "./pages/Error";
+import { action as manipulateEventAction } from "./components/EventForm";
 
 const router = createBrowserRouter([
   {
@@ -31,12 +32,20 @@ const router = createBrowserRouter([
               {
                 index: true,
                 element: <EventDetails />,
-                action: deleteEventAction
+                action: deleteEventAction,
               },
-              { path: "edit", element: <EditEvent /> },
+              {
+                path: "edit",
+                element: <EditEvent />,
+                action: manipulateEventAction,
+              },
             ],
           },
-          { path: "new", element: <NewEvents />, action: newEventAction },
+          {
+            path: "new",
+            element: <NewEvents />,
+            action: manipulateEventAction,
+          },
         ],
       },
     ],
