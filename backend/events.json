@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"National Bird","image":"https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Tweety.svg/1200px-Tweety.svg.png","date":"2023-12-29","description":"twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter","id":"c7212258-fd92-4403-9d67-2855e43b27fd"},{"title":"Dinosaur","image":"https://i.scdn.co/image/ab6761610000e5eb05534cdc751e86a9c4fef5c9","date":"2023-12-02","description":"Ako ay isang nakakatakot na halimaw rorrrr","id":"b722233a-abe6-4233-989f-619cf51cd69f"},{"title":"cat","image":"https://www.petfinder.com/static/93491a00dae49a35df9338d6d8a6d3ad/86e4b/99950237-why-cats-meow-632x475.jpg","date":"2023-12-11","description":"mewo mewo mewo mewo mewo mewo mewo mewo mewo mewo mewo mewo mewo mewo mewo mewo mewo mewo ","id":"41ebbc90-4696-4315-a00f-d84ced50d738"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
